@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.nav-container {
+  background-color: #333;
+}
+.navbar {
+  max-width: 1200px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #0044ff;
+  /* Change to your preferred hover color */
+}
+
+/* this is a style of a home page content  */
+
+.container {
+  position: relative;
+  height: 90vh;
+  background: rgba(0, 0, 0, 0.5) url("./images/pic.webp") center/cover no-repeat;
+  /* Replace 'your-image.jpg' with your image URL */
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+}
+
+.content {
+  max-width: 600px;
+}
+
+h1 {
+  color: black;
+  font-size: 2.5em;
+}
+
+/* p {
+    color: gray;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+} */
+
+/* this is a style of a home page content  */
+
+/* this is a css of a card item  */
+
+.card-container {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #e7eaed;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 30px;
+  width: 300px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  color: #555;
+  text-align: justify;
+  padding: 0 7px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-button {
+  width: 250px;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 7px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+  background-color: #2980b9;
+}
+
+/* this is the for styling the form page  */
+
+.form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.form-container > h2 {
+  margin: 2rem;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.alert-dob {
+  color: brown;
+  display: none;
+  margin: none;
+}
+
+/* this is for alert messagr */
+
+.text-danger {
+  color: red;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.text-success {
+  color: green;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* css for Footer  */
+
+footer {
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  background-color: #e5e5e5;
+}
